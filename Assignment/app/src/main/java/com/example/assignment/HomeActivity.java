@@ -59,10 +59,10 @@ public class HomeActivity extends AppCompatActivity {
                 startActivity(new Intent(HomeActivity.this,LifecycleActivity.class));
             }
         });
-        btnLife.setOnClickListener(new View.OnClickListener() {
+        btnSpin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(HomeActivity.this,LifecycleActivity.class));
+                startActivity(new Intent(HomeActivity.this,SpinnerActivity.class));
             }
         });
 
